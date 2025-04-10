@@ -253,7 +253,7 @@ jobs:
 
           cd $GITHUB_WORKSPACE/device_kernel/
           mkdir -p tmp
-          cp -fp $IMAGE_DIR/Image.gz tmp
+          cp -fp $IMAGE_DIR/Image tmp
           cp -fp $IMAGE_DIR/dtbo.img tmp
 
           if [ -f "$IMAGE_DIR/dtb" ]; then
